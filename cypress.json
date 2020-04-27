@@ -1,0 +1,20 @@
+{
+  "baseUrl": "http://127.0.0.1:8000",
+  "chromeWebSecurity": false,
+  "viewportHeight": 1000,
+  "viewportWidth": 1200,
+  "numTestsKeptInMemory" : 1,
+  "defaultCommandTimeout": 60000,
+  "video": false,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  }
+}

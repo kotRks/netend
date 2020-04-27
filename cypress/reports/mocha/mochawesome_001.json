@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-04-27T05:32:58.617Z",
+    "end": "2020-04-27T05:33:02.281Z",
+    "duration": 3664,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5ae9b969-25f4-4a95-9b1b-4d79fe36c239",
+      "title": "",
+      "fullFile": "cypress\\integration\\secondTest.js",
+      "file": "cypress\\integration\\secondTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "33ed299b-209b-4006-ad2e-3fb7763dc211",
+          "title": "Validation after run",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test 1: Validate visible elements on page",
+              "fullTitle": "Validation after run Test 1: Validate visible elements on page",
+              "timedOut": null,
+              "duration": 1937,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "page.runGame();\npage.validateElementsIsPresent();",
+              "err": {},
+              "uuid": "cfcf6eb9-82ac-4361-8f3a-667c3dda3d07",
+              "parentUUID": "33ed299b-209b-4006-ad2e-3fb7763dc211",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test 2: Validate element class on page",
+              "fullTitle": "Validation after run Test 2: Validate element class on page",
+              "timedOut": null,
+              "duration": 1699,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "page.runGame();\npage.validateElementHaveAttribute();",
+              "err": {},
+              "uuid": "93747053-a96f-4119-9f38-68e0dff3fecc",
+              "parentUUID": "33ed299b-209b-4006-ad2e-3fb7763dc211",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cfcf6eb9-82ac-4361-8f3a-667c3dda3d07",
+            "93747053-a96f-4119-9f38-68e0dff3fecc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3636,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}
